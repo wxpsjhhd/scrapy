@@ -14,10 +14,11 @@ jobs:
         uses: actions/setup-python@v2
         with:
           python-version: 3.8
-      - name: run crawl_chinanews.py
+      - name: run python
         run: |
           pip3 install requests
-          pip3 install bs4
-          python3 crawl_chinanews.py
+          # pip3 install bs4
+          # python3 crawl_chinanews.py
+          python3 test.py
       
 
