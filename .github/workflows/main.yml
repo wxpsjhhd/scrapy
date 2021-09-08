@@ -15,6 +15,6 @@ jobs:
         with:
           python-version: 3.8
       - name: run crawl_chinanews.py
-        run: python3 test.py
+        run: python3 crawl_chinanews.py
       
 
