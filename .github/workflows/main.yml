@@ -17,7 +17,8 @@ jobs:
       - name: run python
         run: |
           pip3 install requests
-          # pip3 install bs4
+          pip3 install bs4
+          pip3 install json
           # python3 crawl_chinanews.py
           ls
           cd 阿里云盘吧爬虫
