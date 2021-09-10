@@ -19,6 +19,8 @@ jobs:
           pip3 install requests
           # pip3 install bs4
           # python3 crawl_chinanews.py
-          python3 test.py
+          ls
+          cd 阿里云盘吧爬虫
+          ls
       
 
