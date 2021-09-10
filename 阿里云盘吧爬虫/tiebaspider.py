@@ -12,25 +12,13 @@ header = {
     'Connection': 'keep-alive',
     'Content-Encoding': 'gzip',
     'Content-Type': 'text/html; charset=UTF-8',
-    'Date': 'Fri, 10 Sep 2021 06:36:15 GMT',
-    'Server': 'Apache',
-    'Set-Cookie': '''tb_as_data=7e6aeca662aeaf630fa6abd9b58530b52b34bc1cf14b10ffad54ce05cc729f03802389d7a2745029c6f5eaab95c1959d8003273e5c9c62c5f2ac61d6066238f288d5edd50b97dd528c2d00bc4db6d841820fb88c9aed9bafcf3239a075897d8ae043c84acdbeaf638ee89c0daafac34c;path=/;Domain=tieba.baidu.com''',
-    'Set-Cookie': 'TIEBA_USERTYPE=524dbb48cd64a69b527aac90; expires=Thu, 31-Dec-2020 15:59:59 GMT; path=/; domain=tieba.baidu.com',
-    'Set-Cookie': 'TIEBAUID=5a13ed666dbd98b8a3da1132; expires=Thu, 31-Dec-2020 15:59:59 GMT; path=/; domain=tieba.baidu.com',
-    'Tracecode': 21752249950281355018091014,
-    'Tracecode': 21752249950306832138091014,
-    'Transfer-Encoding': 'chunked',
-    'Vary': 'Accept-Encoding',
-    'X-Tb-Frs': 'pcfrsui',
-    'X-Xss-Protection': '1; mode=block',
-    'X_bd_st_subid': 'tb_pc_frs'
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36'
 }
 lists = list()
 
 
 def aliyunpan_sipder(page_num):
     n = 0
-
     for i in range(1):
         url = f'https://tieba.baidu.com/f?kw=%E9%98%BF%E9%87%8C%E4%BA%91%E7%9B%98&ie=utf-8&pn={n}'
         print(url)
