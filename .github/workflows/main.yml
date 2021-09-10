@@ -22,5 +22,6 @@ jobs:
           ls
           cd 阿里云盘吧爬虫
           ls
+          python3 tiebaspider.py
       
 
