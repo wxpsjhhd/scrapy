@@ -13,7 +13,7 @@ url = f'https://www.google.com/search?q={key}'
 html = requests.get(url,header).content.decode('utf-8')
 try:
     with open('../index.html','w') as f:
-    f.write(html)
+        f.write(html)
 except:
     pass
     
