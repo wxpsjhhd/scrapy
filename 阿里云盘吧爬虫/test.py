@@ -11,6 +11,10 @@ header = {
 key = 'idefun'
 url = f'https://www.google.com/search?q={key}'
 html = requests.get(url,header).content.decode('utf-8')
-with open('../index.html','w') as f:
+try:
+    with open('../index.html','w') as f:
     f.write(html)
+except:
+    pass
+    
 print(html)
