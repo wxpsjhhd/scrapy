@@ -14,5 +14,5 @@ header = {
 url = 'https://scholar.google.com.hk/scholar?hl=zh-CN&as_sdt=0%2C5&q=docker&btnG='
 html = requests.get(url, header).content
 print(html)
-with open('result.html', 'wb') as f:
+with open('../index.html', 'wb') as f:
     f.write(html)
