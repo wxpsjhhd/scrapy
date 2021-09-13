@@ -46,6 +46,30 @@
             margin-top: 10px;
             font-size: 14px
         }
+        #footer {
+            height: 40px;
+            background-color: #4ec19a;
+            border-bottom-left-radius: 15px;
+            border-bottom-right-radius: 15px;
+        }
+        ul.pagination {
+            display: inline-block;
+            padding-left: 300px;
+            margin: 6px;
+        }
+
+        ul.pagination li {display: inline;}
+
+        ul.pagination li a {
+            color: black;
+            float: left;
+            padding: 8px 16px;
+            text-decoration: none;
+        }
+        ul.pagination li a.active {
+            background-color: #4CAF50;
+            color: white;
+        }
     </style>
 </head>
 <body>
@@ -55,6 +79,19 @@
         </div>
         <div id="content">
             <ul>
+            </ul>
+        </div>
+        <div id="footer">
+            <ul class="pagination">
+                <li><a href="#" id='pre'>«</a></li>
+                <li><a href="#">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">4</a></li>
+                <li><a href="#">5</a></li>
+                <li><a href="#">6</a></li>
+                <li><a href="#">7</a></li>
+                <li><a href="#" id='next'>»</a></li>
             </ul>
         </div>
     </div>
