@@ -20,7 +20,8 @@ jobs:
           pip3 install bs4
           # python3 crawl_chinanews.py
           cd 爬取谷歌学术
-          # python3 tiebaspider.py
           python3 googlescholar.py
+          cd ../阿里云盘吧爬虫
+          python3 tiebaspider.py
       
 
